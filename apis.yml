@@ -1,8 +1,13 @@
 aid: heaviside-industries
 name: Heaviside Industries
-description: Heaviside Industries is a company surfaced as a portfolio company of menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Heaviside Industries is a defense-technology company founded in 2024 in Los Angeles,
+  California, building autonomous precision munitions for U.S. and allied special operations and
+  conventional forces. Its products — MOTH (land electromagnetic signal intelligence and spectrum
+  awareness), TYR (autonomous aerial munition), and HYDRA (autonomous underwater munition) — are
+  designed to deliver hyper-precise strike capabilities across air, land, and sea in GPS-denied and
+  contested environments. Named after physicist Oliver Heaviside, whose electromagnetic theory
+  enabled miniaturized electronics, the company emerged from stealth in May 2026 with a $28M Series A.
+  It does not currently publish a public API, developer portal, SDKs, or machine-readable API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/heaviside-industries/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +15,32 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.theheaviside.com/img/website_painting.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Defense
+- Defense Technology
+- Autonomous Systems
+- Munitions
+- Aerospace
+- National Security
+- Hardware
+- Precision Strike
+- Robotics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://theheaviside.com
+- type: Careers
+  url: https://theheaviside.com/careers.html
+- type: Press
+  url: https://theheaviside.com/press.html
+- type: Support
+  url: https://theheaviside.com/contact.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/heaviside-industries
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
